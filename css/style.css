@@ -25,7 +25,7 @@ img{
 .home{
   background-image:url(../img/taxi.jpg);
   background-size: cover;
-  height: 750px;
+  /*height: 750px;*/
 }
 .color{
   background: #f7b617;
@@ -65,7 +65,7 @@ button{
 /*app*/
 #app{
   background-color: #f7b617;
-  height:500px;;
+  /*height:500px;*/
 }
 #panelApp{
   background-color: #f7b617;
@@ -111,4 +111,32 @@ button{
 .botonConductor{
   background-color:  #f7b617;
   color:#fff;
+}
+/*tarifas*/
+
+.shapes{
+  width: 30%;
+  padding:0;
+  margin:0;
+}
+#marcoImagenTarifas{
+  border: 1px solid #fff;
+  padding: 1%;
+  margin:2%;
+}
+form{
+  text-align: center;
+  color:#FFF;
+}
+
+.input{
+  background: none;
+  color:#fff;
+}
+.parrafoTarifas{
+  color:#fff;
+}
+#contenedorFormulario{
+  padding-top: 10%;
+  padding-right: 5%;
 }
