@@ -87,3 +87,28 @@ button{
   color:#fff;
   font-size: 1.5vw;
 }
+
+/*conductor*/
+#conductor{
+  background-image: url(../img/conduce.jpg);
+  height: 336px;
+  background-size: cover;
+}
+#panelConductor{
+  background-color: #000;
+  opacity:.5;
+  background-position: bottom;
+  background-origin: content-box;
+  border: none;
+  padding-top: 5%;
+  padding-bottom: 10%;
+
+}
+#panelConductor{
+  z-index: 1;
+  color: #fff;
+}
+.botonConductor{
+  background-color:  #f7b617;
+  color:#fff;
+}
