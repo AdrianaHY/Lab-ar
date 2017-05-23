@@ -27,18 +27,16 @@ img{
   background-size: cover;
   /*height: 750px;*/
 }
-.color{
-  background: #f7b617;
-}
+
 .tituloPanel{
-  color:#fff;
+
   font-size: 2vw;
   font-weight: 300;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 .viaja{
-  color:#fff;
+
   font-size: 1vw;
 }
 .marginTop{
@@ -63,12 +61,9 @@ button{
 }
 
 /*app*/
-#app{
-  background-color: #f7b617;
-  /*height:500px;*/
-}
+
 #panelApp{
-  background-color: #f7b617;
+
   margin-left: 0;
   margin-top: 4%;
   padding:2%;
@@ -80,11 +75,11 @@ button{
   padding:0;
 }
 .tituloApp{
-  color:#fff;
+
   font-size: 2.2vw;
 }
 .parrafosApp{
-  color:#fff;
+
   font-size: 1.5vw;
 }
 
@@ -106,12 +101,9 @@ button{
 }
 #panelConductor{
   z-index: 1;
-  color: #fff;
+
 }
-.botonConductor{
-  background-color:  #f7b617;
-  color:#fff;
-}
+
 /*tarifas*/
 
 .shapes{
@@ -139,4 +131,24 @@ form{
 #contenedorFormulario{
   padding-top: 10%;
   padding-right: 5%;
+}
+
+/*footer*/
+footer{
+  background-color: #2b2b2b;
+}
+.logoFooter{
+  width:8%;
+  padding-top: 3%;
+}
+#redesSociales{
+  width:50%;
+  padding-top: 90%;
+  margin-right: 10%;
+}
+a{
+  color:#fff;
+}
+.imagenesFinalesFooter{
+  padding-top: 50%;
 }
