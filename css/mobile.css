@@ -1,0 +1,23 @@
+@media screen and (min-width:0px) and (max-width:480px){
+  /*nav*/
+
+  .boton{
+    display:none;
+  }
+  #hamburguesa{
+  display: inline-grid;
+  }
+
+  /*home*/
+  #primerPanel{
+    display: none;
+  }
+ #panelMobile{
+   display: inline;
+ }
+ .shapes{
+   width:2%;
+ }
+
+
+}
