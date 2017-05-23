@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/common.css">
-      <script src="https://use.fontawesome.com/f72530ebc1.js"></script>
+    <link rel="stylesheet" href="css/mobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   </head>
   <body>
@@ -22,31 +23,43 @@
             </a>
           </div>
           <div class="navbar-header col-md-4">
-            <ul class="nav navbar-nav padding">
-              <li class="col-md-2 col-md-offset-1"><a href="#">Viaja</a></li>
-              <li class="col-md-2 col-md-offset-1"><a href="#">Conduce</a></li>
-              <li class="col-md-2 col-md-offset-2"><a href="#">Inicia Sesión</a></li>
+            <ul class="nav navbar-nav padding boton">
+              <li class="col-md-2 col-md-offset-1"><a href="#tarifas">Viaja</a></li>
+              <li class="col-md-2 col-md-offset-1 "><a href="#conductor">Conduce</a></li>
+              <li class="col-md-2 col-md-offset-2 "><a href="#home">Inicia Sesión</a></li>
+              <li id="hamburguesa"><button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                  </button>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
 
       <!-- home -->
-      <section class="container-fluid home">
+      <section  id="home"class="container-fluid home">
         <div  class="row">
-          <div  class="col-md-12 ">
-            <div class="panel panel-default col-md-5 col-md-offset-8 colorGeneralAmarillo marginTop borderNone paddingPanel">
+          <div id="panelHomeDesktop" class="col-md-12 col-xs-12">
+            <div id="primerPanel"class="panel panel-default col-md-5 col-xs-5 col-md-offset-7 col-xs-offset-7 colorGeneralAmarillo marginTop borderNone paddingPanel">
               <h4 class="tituloPanel colorBlanco">Disfruta del viaje</h4>
               <h4 class="tituloPanel  colorBlanco">Eres dueño de tu tiempo</h4>
               <p class="viaja  colorBlanco marginTopSpan">Viaja con <span class="lab"><img class="lab"src="img/logoBlanco.png" alt=""></span></p>
-              <button class="col-md-3 btn">REGÍSTRATE</button>
-            <div class="col-md-12">
-              <span class="col-md-4 viaja colorBlanco marginTopSpan tamanoLinea">──────────────</span>
-              <p class="col-md-2 text-center viaja colorBlanco marginTopSpan tamanoLinea">O bien</p>
-              <span class="col-md-3 viaja colorBlanco marginTopSpan tamanoLinea">──────────────</span>
+              <button class="col-md-5 col-xs-5 btn">REGÍSTRATE</button>
+            <div class="col-md-12 col-xs-12">
+              <span class="col-md-4 col-xs-4 viaja colorBlanco marginTopSpan tamanoLinea">──────────────</span>
+              <p class="col-md-2 col-xs-2 text-center viaja colorBlanco marginTopSpan tamanoLinea">O bien</p>
+              <span class="col-md-3 col-xs-3 viaja colorBlanco marginTopSpan tamanoLinea">──────────────</span>
             </div>
-              <button class="col-md-5 btn marginTopSpan">Conviértete en un conductor</button></p>
+              <button class="col-md-8 col-xs-8 btn marginTopSpan">Conviértete en un conductor</button></p>
             </div>
+          </div>
+          <!-- mobile -->
+        </div>
+        <div id="panelMobile" class="col-xs-12 ">
+          <div class="panel panel-default col-xs-5 col-xs-offset-8 colorGeneralAmarillo marginTop borderNone paddingPanel">
+            <h4 class="tituloPanel  colorBlanco">Comienza a viajar</h4>
+            <p class="viaja  colorBlanco marginTopSpan">con <span class="lab"><img class="lab"src="img/logoBlanco.png" alt=""></span></p>
+            <button class="col-md-5 col-xs-5 btn">Descarga el app</button>
           </div>
         </div>
       </section>
@@ -54,7 +67,7 @@
 
       <!-- app -->
 
-      <section  class="container-fluid colorGeneralAmarillo">
+      <section id="app" class="container-fluid colorGeneralAmarillo">
         <div class="row">
           <div  id= "contenedor"class="col-md-12">
             <div id="panelApp" class="panel panel-default col-md-10 colorGeneralAmarillo">
@@ -99,7 +112,7 @@
 
       <!-- tarifas -->
 
-      <section class="container-fluid colorGeneralAmarillo">
+      <section id="tarifas" class="container-fluid colorGeneralAmarillo">
         <div class="row">
           <div class="col-md-12">
             <div id="contenedorFormulario"class="col-md-6">
@@ -135,7 +148,7 @@
 
       <!-- footer -->
 
-      <footer class="container-fluid">
+      <footer id="footer" class="container-fluid">
       <section class="row">
           <div class="col-md-12">
             <img src="img/logoBlanco.png" alt="" class="logoFooter">
